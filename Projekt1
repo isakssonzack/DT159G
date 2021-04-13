@@ -1,0 +1,38 @@
+<?php
+
+//Zack Isaksson
+//zais1900
+//DT100g
+
+// kolla så personen är inloggad, annars skicka vidare till loggain.php
+session_start();
+
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
+        header("Location: loggain.php");
+    }
+?>
+<?php
+$page_title = "Spel";
+include("includes/header.php");
+include("includes/sidebar.php");
+include("includes/footer.php");
+?>
+
+
+<html lang="sv" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>Flappy Bird</title>
+    <link rel="stylesheet" href="css/stilmall.css">
+</head>
+<body>
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>
+        <div id="character"></div>
+        
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
