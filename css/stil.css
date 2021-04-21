@@ -1,0 +1,199 @@
+/* ------------------- Style för body ------------------- */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Source Sans Pro;
+}
+
+/* ------------------- Style för header ------------------- */
+#mainheader {
+    text-align: center;
+    font-size: 35px;
+    word-spacing: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 45px;
+
+    border: 5px solid;
+    border-color: black;
+    background-color: #b5b5b5;
+   
+}
+
+/* ------------------- Style för sidebar ------------------- */
+
+#sidebar {
+    position: absolute;
+    margin-top: 15px;
+    width: 300px;
+    height: 100%;
+    background: #424242;
+    border: 4px solid;
+    border-color: black;
+    left: -310px;
+    transition: 0.5s;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar ul li {
+    list-style: none;
+    color: white;
+    font-size: 50px;
+    padding: 20px 24px;
+}
+
+#sidebar ul li :hover {
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+}
+
+#sidebar .toggle-btn:hover {
+    cursor: pointer;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: black;
+    display: block;
+    margin-top: 4px;
+}
+
+/* ------------------- Style för footer ------------------- */
+#mainfooter{
+    border: 4px solid;
+    border-color: black;
+    background-color: #b5b5b5;
+
+    font-size: 20px;
+    text-align: center;
+
+
+    margin-top: 150px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#mainfooter p {
+    text-align: center;
+    font-size: 20px;
+
+    word-spacing: 500px;
+
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ------------------- Style för Intro (Varje sida) ------------------- */
+#Intro {
+    text-align: center;
+    font-size: medium;
+    word-spacing: 10px;
+    margin-bottom: 25px;
+}
+
+/* ------------------- Style för Text (Varje sida) ------------------- */
+#Text {
+    text-align: left;
+    font-size: 22px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    border: 2px solid;
+    border-color: black;
+    padding: 20px 20px 20px 20px;  
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ------------------- Style för Karta (Start) ------------------- */
+#Karta {
+    text-align: center;
+    font-size: medium;
+    word-spacing: 10px;
+    margin-top: 250px;
+    margin-bottom: 25px; 
+}
+
+#Karta p{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    border: 2px solid;
+    border-color: black;
+    padding: 20px 20px 20px 20px; 
+}
+
+
+
+/* ------------------- Style för År (Start) ------------------- */
+#Years {
+    text-align: center;
+    font-size: medium;
+    word-spacing: 10px;
+    margin-top: 250px;
+    margin-bottom: 25px; 
+}
+
+#Years p{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    border: 2px solid;
+    border-color: black;
+    padding: 20px 20px 20px 20px; 
+}
+
+
+
+/* ------------------- Style för Kommun (Start) ------------------- */
+#Kommun {
+    text-align: center;
+    font-size: medium;
+    word-spacing: 10px;
+    margin-top: 250px;
+    margin-bottom: 25px; 
+}
+
+#Kommun p{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    border: 2px solid;
+    border-color: black;
+    padding: 20px 20px 20px 20px; 
+}
