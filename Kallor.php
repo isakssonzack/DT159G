@@ -14,7 +14,9 @@ include("parts/header.php");
 <div id="Text">
   <p>  
       Datan som vi har använt oss av kommer från Brottsförebyggande Rådets hemsida. Graferna och tabellerna som används visualiseras på denna hemsida
-      använder endast infromation från BRA.se <br></br>
+      använder endast infromation från BRA.se
+      
+      <br></br>
 
       Om du är själv är intresserad att skapa egna tabeller så har vi länkat till deras hemsida: <a href="https://www.bra.se/" target="_blank"> https://www.bra.se/ </a> <br></br>
 

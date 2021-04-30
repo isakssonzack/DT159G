@@ -19,7 +19,6 @@
             <span></span>
             <span></span>
             <span></span>
-
         </div>
     
         <ul>
@@ -28,5 +27,4 @@
             <li> <form action="Kallor.php"> <input type="submit" value="Källor" /> </form>  </li>
         </ul>
     </div>
-</header>
-    
+</header>  

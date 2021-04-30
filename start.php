@@ -6,6 +6,8 @@ include("parts/header.php");
 ?>
 
 
+
+
 <!-- --------------- Intro --------------- -->
 
 <div id="Intro">
@@ -46,11 +48,16 @@ include("parts/header.php");
   <h1> Årsutveckling över kriminaliteten samt månads detaljering (Alla brottstyper) </h1>
 
   <p> 
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
+
+  
+  <!-- --------------- Hämta data --------------- -->
+  <?php
+  include("parts/Year.php");
+  include("parts/Month.php");
+  ?>  
+
+  <br></br>
+
   </p>
 
 </div>
