@@ -7,11 +7,11 @@ include("parts/header.php");
 
 
 
-<div id="Intro">
+<div class = "Intro">
   <h1>  Faktan som bygger upp hemsidan:  </h1>
 </div>
 
-<div id="Text">
+<div Class = "Text">
   <p>  
       Datan som vi har använt oss av kommer från Brottsförebyggande Rådets hemsida. Graferna och tabellerna som används visualiseras på denna hemsida
       använder endast infromation från BRA.se

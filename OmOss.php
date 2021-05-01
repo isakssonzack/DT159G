@@ -7,11 +7,11 @@ include("parts/header.php");
 
 
 
-<div id="Intro">
+<div class = "Intro">
   <h1> Vilka är vi? </h1>
 </div>
 
-<div id="Text">
+<div class = "Text">
   <p> 
       Detta projekt har skapars utav tre studenter som läser programmet civilingenjör med inriktning industriell ekonomi.  <br></br>
       

@@ -4,7 +4,7 @@
 <head>
     <title> Kriminalitet.se </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/stil.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/script.js"> </script>
 </head>
 

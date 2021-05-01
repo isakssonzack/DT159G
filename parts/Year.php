@@ -104,17 +104,4 @@
   $Year2020_6 = $spreadsheet->getActiveSheet()->getCell('L23')->getValue();
   $Year2020_7 = $spreadsheet->getActiveSheet()->getCell('L26')->getValue();
   
-  // Utskrivningen
-  echo nl2br("\n År 2010: "), $Year2010_1+ $Year2010_2 + $Year2010_3 + $Year2010_4 + $Year2010_5 +  $Year2010_6 + $Year2010_7;  
-  echo nl2br("\n År 2011: "), $Year2011_1+ $Year2011_2 + $Year2011_3 + $Year2011_4 + $Year2011_5 +  $Year2011_6 + $Year2011_7; 
-  echo nl2br("\n År 2012: "), $Year2012_1+ $Year2012_2 + $Year2012_3 + $Year2012_4 + $Year2012_5 +  $Year2012_6 + $Year2012_7; 
-  echo nl2br("\n År 2013: "), $Year2013_1+ $Year2013_2 + $Year2013_3 + $Year2013_4 + $Year2013_5 +  $Year2013_6 + $Year2013_7; 
-  echo nl2br("\n År 2014: "), $Year2014_1+ $Year2014_2 + $Year2014_3 + $Year2014_4 + $Year2014_5 +  $Year2014_6 + $Year2014_7; 
-  echo nl2br("\n År 2015: "), $Year2015_1+ $Year2015_2 + $Year2015_3 + $Year2015_4 + $Year2015_5 +  $Year2015_6 + $Year2015_7; 
-  echo nl2br("\n År 2016: "), $Year2016_1+ $Year2016_2 + $Year2016_3 + $Year2016_4 + $Year2016_5 +  $Year2016_6 + $Year2016_7; 
-  echo nl2br("\n År 2017: "), $Year2017_1+ $Year2017_2 + $Year2017_3 + $Year2017_4 + $Year2017_5 +  $Year2017_6 + $Year2017_7; 
-  echo nl2br("\n År 2018: "), $Year2018_1+ $Year2018_2 + $Year2018_3 + $Year2018_4 + $Year2018_5 +  $Year2018_6 + $Year2018_7; 
-  echo nl2br("\n År 2019: "), $Year2019_1+ $Year2019_2 + $Year2019_3 + $Year2019_4 + $Year2019_5 +  $Year2019_6 + $Year2019_7; 
-  echo nl2br("\n År 2020: "), $Year2020_1+ $Year2020_2 + $Year2020_3 + $Year2020_4 + $Year2020_5 +  $Year2020_6 + $Year2020_7; 
-
 ?>
