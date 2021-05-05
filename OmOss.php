@@ -1,17 +1,12 @@
 <?php
-
 $page_title = "OmOss";
-
 include("parts/header.php");
 ?>
 
+<div class = "IntroOss"> <h1> Vilka är vi? </h1> </div>
 
-
-<div class = "Intro">
-  <h1> Vilka är vi? </h1>
-</div>
-
-<div class = "Text">
+<div class = "RutaOss">
+<div class = "TextOss">
   <p> 
       Detta projekt har skapars utav tre studenter som läser programmet civilingenjör med inriktning industriell ekonomi.  <br></br>
       
@@ -24,9 +19,7 @@ include("parts/header.php");
       Vi har skapat denna hemsida under kursen DT159G - Tillämpa datateknik. Syftet med kursen är att konstruktera en hemsida som kan vara använbar för allmänheten, vi
       tror att denna hemsida kommer bli användbar för Sveriges befolkning, turister samt eventuella myndigheter.
   </p>
-
-
-
+</div>
 </div>
 
 <?php

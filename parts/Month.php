@@ -6,7 +6,7 @@ $Month = 'Excel/AllaBrottMonth.xls';
 $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($Month);
   
 // Jan
-$Jan_1 = $spreadsheet->getActiveSheet() -> getCell('B9') -> getValue();
+$Jan_1 = $spreadsheet->getActiveSheet()->getCell('B9') ->getValue();
 $Jan_2 = $spreadsheet->getActiveSheet()->getCell('B12')->getValue();
 $Jan_3 = $spreadsheet->getActiveSheet()->getCell('B14')->getValue();
 $Jan_4 = $spreadsheet->getActiveSheet()->getCell('B17')->getValue();
