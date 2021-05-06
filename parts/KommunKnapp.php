@@ -12,13 +12,13 @@
   <option value="Kal">      Kalmar</option>
   <option value="Kakrona">  Karlskrona</option>
   <option value="Kastad">   Karlstad</option>
-  <option value="Kiruna">      Kiruna</option>
-  <option value="Li">       Lindköping</option>
+  <option value="Kiruna">   Kiruna</option>
+  <option value="Li">       Linköping</option>
   <option value="Ma">       Malmö</option>
   <option value="St">       Stockholm</option>
   <option value="Su">       Sundsvall</option>
   <option value="Uppsala">  Uppsala</option>
-  <option value="Upplands"> Upplands västby</option>
+  <option value="Upplands"> Upplands väsby</option>
   <option value="Var">      Varberg</option>
   <option value="Vas">      Västerås</option>
   <option value="Ore">      Örebro</option>

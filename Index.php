@@ -115,12 +115,12 @@ function CirkelFunction() {
             myChart.update()
             document.getElementById("KommunNamn").innerHTML = "Gotland"   
       } 
-      // Gävla
+      // Gävle
       else if(kommun == "Gav"){
             myChart.data.datasets[0].data = [   <?php echo $Gav_1 ?>, <?php echo $Gav_2 ?>, <?php echo $Gav_3 ?>, <?php echo $Gav_4 ?>, 
                                                 <?php echo $Gav_5 ?>, <?php echo $Gav_6 ?>, <?php echo $Gav_7 ?>];
             myChart.update()
-            document.getElementById("KommunNamn").innerHTML = "Gävla"  
+            document.getElementById("KommunNamn").innerHTML = "Gävle"  
       }
       // Göteborg
       else if (kommun == "Gote"){

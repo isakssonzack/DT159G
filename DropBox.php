@@ -1,0 +1,1 @@
+icon:'Bilder/pinkball.png'
