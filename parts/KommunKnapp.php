@@ -1,6 +1,7 @@
 <!-- Välj kommun -->
 <label for="kommun">Kommun:</label>
 
+<!-- Urval av kommuner -->
 <select name="kommun" id="kommun">
   <option value="Bo">       Borlänge</option>
   <option value="Es">       Eskilstuna</option>

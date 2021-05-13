@@ -1,5 +1,4 @@
-<!-- ---------------------------------- Tabell: Årsutveckling ---------------------------------- -->
-<!-- Google Charts -->
+<!-- Hämtar Google Charts (År) -->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
 google.charts.load("current", {packages:['corechart']});
@@ -37,7 +36,7 @@ title: "Årsutveckling mellan år 2010 och 2020",
 legend: { position: "none" },
 };
 
-// Skapa Chart
+// Skapa Chart (Graf för år)
 var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
 chart.draw(view, options);
 }
@@ -45,10 +44,9 @@ chart.draw(view, options);
 </script>
 <div id="columnchart_values" style="width: 800px; height: 400px; margin-left:12.5%;"></div>
 
+<!-- ------------------------------------------------------------------------------------------------------ -->
 
-
-<!-- ---------------------------------- Tabell: Månadsutveckling ---------------------------------- -->
-<!-- Google Charts -->
+<!-- Google Charts (Månad) -->
 <script type="text/javascript">
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
@@ -79,7 +77,7 @@ curveType: 'function',
 legend: { position: 'none' }
 };
 
-// Skapa Chart
+// Skapa Chart (Graf för månad)
 var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
 chart.draw(data, options);
 }
