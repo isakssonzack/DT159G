@@ -25,6 +25,7 @@ integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwr
 <!-- Sidebar -->
 <div id="sidebar">
     <div class="toggle-btn" onclick="show()">
+        <!-- Streck -->
         <span></span>
         <span></span>
         <span></span>

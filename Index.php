@@ -11,7 +11,7 @@ include("parts/header.php");  // Header
 <p> 
 Målet med denna hemsida är att visa hur kriminaliteten i Sverige är fördelad, för att främst upplysa den svenska befolkningen om vart man ska vara extra försiktig, 
 vi valde då att avgränsa projektet mot att enbart fokusera på brottstyper som riktar sig direkt mot privatpersoner, inom de området. Men vi kommer också att inkludera
-alla brottstyper inom andra områden på hemsidan. <br></br> 
+alla brottstyper inom andra områden på hemsidan. </br></br>
 
 Hemsidan är uppdelat i tre huvuddelar vilket är översiktlig karta över hela Sverige, årsutvecklingen och månads fördelnibg samt individuell statistik. 
 Utöver det så finns det även ytligare två sidor som innehåller information om vart hemsidan är baserad från samt information om oss som ligger bakom hemsidan. 
@@ -24,8 +24,8 @@ Utöver det så finns det även ytligare två sidor som innehåller information 
 <div class = "Karta"> <h1> Kriminalitet över Sverige </h1></div>
 <div class = "Ruta1">
 <?php
-include("parts/Maps.php");    // Google Maps
 include("parts/Region.php");  // Region (Data)
+include("parts/Maps.php");    // Google Maps
 ?>
 
 <p> 
